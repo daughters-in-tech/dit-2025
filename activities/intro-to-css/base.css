@@ -1,0 +1,30 @@
+/* all 'main' tags will receive these styles */
+main {
+  width: 100%;
+  /* 
+    the display of an element helps you specify
+    where an element appears on the screen
+    you can find more properties that work with 'flex' here
+    https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+  */
+  
+  /* needed to use flex properties */
+  display: flex; 
+  
+  /* 
+    allows items to be on multiple lines, 
+    remove and watch the 'p' elements move to a single line 
+  */
+  flex-wrap: wrap; 
+}
+
+/* 
+  the '>' symbol is call the child selector
+  any 'p' tags that are directly under a 'main' tag will get these styles
+*/
+main>div {
+  width: calc(100%/3);
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
