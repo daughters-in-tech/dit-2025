@@ -1,22 +1,22 @@
-Welcome to Glitch
-=================
+Daughters in Tech 2025
+======================
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+Updates to your code will instantly deploy and update live.
 
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+**GitHub Codespaces** is the friendly community where you'll build the app of your dreams. Codespaces lets you instantly create, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
 
-Find out more [about Glitch](https://glitch.com/about).
-
----
-🛑 **WAIT TO REMIX** 🛑
-
-Do not remix this project until closer to the event, just in case anything changes on the template.
-
-After remixing, rename your project and remove this warning.
+Find out more [about Codespaces](https://github.com/features/codespaces)
 
 ---
+🛑 **WAIT TO FORK** 🛑
 
-This is the Daughers in Tech 2025 Coding Exercise!
+Do not fork this project until closer to the event, just in case anything changes on the template.
+
+After forking, you can remove this warning.
+
+---
+
+This is the Daughers in Tech 2025 Coding Activity!
 ------------
 
 
