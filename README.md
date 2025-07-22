@@ -12,7 +12,7 @@ Find out more [about Codespaces](https://github.com/features/codespaces)
 
 Do not fork this project until closer to the event, just in case anything changes on the template.
 
-After forking, you can remove this warning.
+After creating your own fork, you can remove this warning.
 
 ---
 
