@@ -7,16 +7,22 @@ DEVELOPMENT GUIDELINES
     until you decide on which image, please do so to save time
 3. Use your HTML and CSS glossaries as reference if you get stuck
 
-## 1️⃣ Session One
-- First, complete the ABOUT-GLITCH activities in the *reference* folder.
+## 1️⃣ Exercise One - Discovery 💡
+- First, complete the `ABOUT-CODESPACES.md` activities in the `reference` folder.
 
 ### Content Development
-- Think about the **content** of your website. Make a rough draft or wireframe as a team.
+- Think about the **content** of your website. Make a rough draft or wireframe by yourself or with your parent.
 - What is the topic of your website?
 - What is the audience of your website?
 - What is the message of your website?
 
-## 2️⃣ Session Two - HTML 🦴
+## 2️⃣ Exercise Two - HTML 🦴
+
+### Activities
+- Go through the activities in the `index.html` file under `intro-to-html`
+- If you're stuck, you can look through `sample.html`
+
+### Brainstorm
 _Create the structure and content of your website._
 
 _Here are a few examples..._
@@ -30,17 +36,22 @@ _Here are a few examples..._
 - Upload **image** assets to use on your website.
 
 
-## 3️⃣ Session Three - CSS 💪
+## 3️⃣ Exercise Three - CSS 👕
+
+### Activities
+- Go through the activities in the `activity.css` file under `intro-to-css`
+- If you're stuck, you can look through `sample.css`
+
+### Brainstorm
 _Style and design the content of your website._
 
 _Here are a few examples..._
-
-### 🎯 Selectors
+#### 🎯 Selectors
 - Add CSS based on at a new **class** selector
 - Add CSS based on an **id** selector
 - Add CSS based on a specific **tag** (h1, p, div, etc)
 
-### 🎨 Styles
+#### 🎨 Styles
 - Use **font-size** to change the size of text
 - Use **font-color** to change the color of text
 - Explore **font-family** to change the style of text
@@ -49,7 +60,7 @@ _Here are a few examples..._
 - Explore **padding** and **margin** for giving space between content
 - Explore other properties to change
 
-## 4️⃣ Session Four 
+## 4️⃣ Excercise Four - Coding 👩‍💻
 _Continue developing your website._
 
 _You might..._

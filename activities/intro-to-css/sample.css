@@ -1,54 +1,41 @@
 /* 
   Change the font we are using for the entire page
   1. make a 'body' tag selector
-
   2. set the 'font-family' property to 'sans-serif'
-
   3. set the 'font-size' property to 24px
 */
-
 body {
   font-family: sans-serif;
+  font-size: 24px;
 }
-
-
-
-
 
 /*
   Style the title text: "Fun with CSS"
   1. make a 'h1' tag selector
-
   2. set the 'color' property to a color of your choice. 
       See "Colors" section in 'glossary.md'.
-
   3. set the 'text-align' property to 'center'
-
   4. set the 'text-decoration' property to 'underline overline'. 
       There is one more called 'line-through' if you want to try it.
 */
-
-
-
-
-
-
-
+h1 {
+  color: violet;
+  text-align: center;
+  text-decoration: underline overline;
+  /* text-decoration: line-through */
+}
 
 /*
   Style the text and boxes. First the background color.
   1. make a 'div' tag selector
-
   2. set 'background' property to a color of your choice.
 
   You may also add a border to the boxes if you want. 
     There are 3 parts to the border. Each has its own property.
   1. set 'border-color' property to a color of your choice
-
-  2. set 'border-size' to '2px'. 
+  2. set 'border-width' to '2px'. 
       You may choose a size of your own, 
       just remember to add the 'px' to the end of the number.
-
   3. set 'border-style' to 'solid'. 
       There are more options for this property, 
       so feel free to set it to any of the values 
@@ -57,33 +44,26 @@ body {
   ❓ Ask a friend, volunteer, or your parent:
       How the border can be set with a single property?
 */
-
-
-
-
-
-
-
+div {
+  background: powderblue;
+  border-color: gray;
+  border-width: 1px;
+  border-style: solid;
+  /* border: gray 1px solid; */
+}
 
 
 /*
   Change bullet points
-
   1. make 'ul' tag selector
   2. set 'list-style' property to 'square'
 
   See other list styles here:
     https://www.w3schools.com/csSref/pr_list-style-type.asp
 */
-
-
-
-
-
-
-
-
-
+ul {
+  list-style: square;
+}
 
 /*
   Change the background of only the boxes with text in them.
@@ -96,38 +76,24 @@ body {
 
   2. set the 'background' property to a color of your choice
 */
-
-
-
-
-
-
-
-
-
+.text-box {
+  background-color: coral;
+}
 
 /*
   Add an image to a non-text box
   1. pick any of the boxes that doesn't have text in it 
       and put an 'img' tag in the HTML.
-      set the 'src' attribute to 'https://cdn.glitch.com/cf9590e8-e39c-4b80-aeda-21b5c47d8880%2Fred-panda.jpg?v=1591304121697'
-
+      set the 'src' attribute to '../../assets/red-panda.jpg'
   2. make a 'img' tag selector
-
   3. set 'height' property to 300px or any value you like, 
       just remember to put 'px' after it.
-
   4. set 'opacity' property to .5
 */
-
-
-
-
-
-
-
-
-
+img {
+  height: 300px;
+  opacity: .5
+}
 
 /* Hover Styles
   Change background color of boxes when you hover your mouse over them.
@@ -147,30 +113,40 @@ body {
   whose styles will be applied when you are clicking on an element.
   See if you can get ':active' to work
 */
+div:hover {
+  background-color: thistle;
+}
 
-
-
-
-
-
-
-
-
+div:active {
+  background-color: cornflowerblue;
+}
 
 /*
   Using what you have learned, perform the following changes:
 
   1. Change background color of entire page.
-
   2. Add 'padding' to boxes with text 
       so the text isn't so close to the border.
-
   3. Add a border to the "Fun with CSS" text. 
       ❓ Ask a friend, volunteer, or your parent: How to add the border only on the bottom?
-
   4. Change the background of the boxes in the middle 
       to be different colors from the rest.
-
   5. Download images of your own and add them to the remaining
       boxes without text
 */
+
+body {
+  background: gray;
+}
+
+.text-box {
+  padding: 5px;
+}
+
+h1 {
+  border: 1px solid violet
+}
+
+.middle {
+  background-color: aquamarine;
+}
